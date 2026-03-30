@@ -69,14 +69,14 @@ h4 {
   font-weight: 550;
 }
 td > a {
-  font-size: .9em ;
+  font-size: 0.9em;
   color: #0440c4;
 }
 
 td {
-  border-bottom:1px solid #dee2e6;
+  border-bottom: 1px solid #dee2e6;
 }
-table{
+table {
   border: 1px solid #dee2e6;
   margin-left: 20px;
   width: 97%;
