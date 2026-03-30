@@ -12,3 +12,11 @@
 .black-bg {
   background-color: black;
 }
+.grey-bg > ul,
+.top__black-vu-text {
+  color: white;
+}
+li > a {
+  color: #000;
+  text-decoration: none;
+}
