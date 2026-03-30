@@ -61,23 +61,32 @@ li > a {
 }
 caption {
   color: #212529;
-  font-size: 30px;
+  font-size: 1.75em;
+  color: #000;
   font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 h4 {
-  font: 1.09em, sans-serif;
+  font: 2em, sans-serif;
   font-weight: 550;
 }
 td > a {
-  font-size: 0.9em;
-  color: #0440c4;
+  font-size: 0.89em;
+  color: #0440c4;  
+  padding-left: 12px;
+  font-weight: 500;
 }
 
 td {
   border-bottom: 1px solid #dee2e6;
+  padding-top: 5px;
+  padding-bottom: 15px;
 }
+
 table {
   border: 1px solid #dee2e6;
+  border-top: 2px solid #dee2e6;
   margin-left: 20px;
   width: 97%;
 }
