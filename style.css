@@ -3,3 +3,12 @@
   margin: 0;
   padding: 0;
 }
+.grey-bg {
+  background-color: #666666;
+}
+.yellow-bg {
+  background-color: #ffc107;
+}
+.black-bg {
+  background-color: black;
+}
