@@ -29,6 +29,9 @@ li > a {
   display: flex;
   align-items: center;
 }
+.flex--column{
+  flex-direction: column;
+}
 li {
   list-style-type: none;
 }
@@ -92,15 +95,21 @@ table {
 }
 .bottom {
   height: 4em;
-  
+  width: 100%;
 }
 .top {
   height: 4em;
+  width: 100%; 
+}
+.top__black,
+.top__yellow {
+  width: 50%;
+  height: 100%;
 }
 a>img {
   height: 3.5em;
   margin-top: 20px;
-  margin-bottom: 2px;
+  margin-bottom:10px;
 }
 .icon_wrap{
   width:9.5%;
