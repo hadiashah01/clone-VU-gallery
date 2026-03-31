@@ -9,7 +9,7 @@ body {
     Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 .grey-bg {
-  background-color: #666666;
+  background-color: #363636;
 }
 .yellow-bg {
   background-color: #ffc107;
@@ -73,7 +73,7 @@ h4 {
 }
 td > a {
   font-size: 0.89em;
-  color: #0440c4;  
+  color: #0440c4;
   padding-left: 12px;
   font-weight: 500;
 }
@@ -89,4 +89,16 @@ table {
   border-top: 2px solid #dee2e6;
   margin-left: 20px;
   width: 97%;
+}
+.bottom {
+  height: 4em;
+  margin-top: 9px;
+}
+.top {
+  height: 4em;
+}
+a>img {
+  height: 3.5em;
+  margin-top: 20px;
+  margin-bottom: 2px;
 }
