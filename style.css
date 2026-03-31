@@ -92,7 +92,7 @@ table {
 }
 .bottom {
   height: 4em;
-  margin-top: 9px;
+  
 }
 .top {
   height: 4em;
@@ -101,4 +101,10 @@ a>img {
   height: 3.5em;
   margin-top: 20px;
   margin-bottom: 2px;
+}
+.icon_wrap{
+  width:9.5%;
+  height: 100%;
+  justify-content: center;
+  text-align:center;
 }
