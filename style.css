@@ -141,3 +141,12 @@ gap: 15px;
  font-size: 0.5em;
  font-weight: 800;
 }
+.bottom__search-bar{
+  margin-top: 10px;
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  background-color:#ffc107;
+  padding-left: 4px;
+  margin-left: 20px;
+}
