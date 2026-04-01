@@ -53,9 +53,8 @@ li {
   min-width: 350px;
 }
 li > a {
-  font: 0.8rem "montserratregular";
-  font-weight: 400;
-  font-weight: bold;
+  font: 0.7rem "montserratregular";
+  font-weight: 600; 
 }
 .icon-title {
   font:
@@ -132,4 +131,13 @@ table {
 }
 .icon-title {
 font-size: 0.7em;
+}
+.top__yellow_links  {
+margin-left: 70px;
+gap: 15px;
+}
+.top__yellow_links>li {
+ gap: 12px;
+ font-size: 0.5em;
+ font-weight: 800;
 }
