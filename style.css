@@ -28,6 +28,7 @@ li > a {
 .flex {
   display: flex;
   align-items: center;
+  flex-wrap: nowrap;
 }
 .flex--column{
   flex-direction: column;
@@ -38,6 +39,9 @@ li {
 .top__black-green-text {
   color: #3bbd3b;
   font-size: 18px;
+  margin-inline: 12px;
+  min-width: 350px;
+  font-weight: 700;
 }
 .top__black-vu-text {
   font:
@@ -45,6 +49,8 @@ li {
     Helvetica,
     sans-serif;
   font-weight: bolder;
+  margin-left: 10px;
+  min-width: 350px;
 }
 li > a {
   font: 0.8rem "montserratregular";
@@ -101,19 +107,29 @@ table {
   height: 4em;
   width: 100%; 
 }
-.top__black,
-.top__yellow {
-  width: 50%;
+.top__black {
+  width: 55%;
   height: 100%;
 }
-a>img {
+.top__yellow{
+  width: 45%;
+  height: 100%;
+}
+.logo {
   height: 3.5em;
   margin-top: 20px;
-  margin-bottom:10px;
+  margin-bottom:15px;
 }
 .icon_wrap{
-  width:9.5%;
+  min-width:9.3%;
   height: 100%;
   justify-content: center;
   text-align:center;
+  padding-top:8px ;
+}
+.icon {
+  height: 20px;
+}
+.icon-title {
+font-size: 0.7em;
 }
