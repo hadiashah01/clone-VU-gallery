@@ -150,3 +150,14 @@ gap: 15px;
   padding-left: 4px;
   margin-left: 20px;
 }
+.top__yellow_language-input {
+  background-color: aliceblue;
+  border: 1px solid #9b9b9b;
+  border-radius: 5px;
+}
+.arrow {
+  color: #9b9b9b;
+}
+.Select {
+   font:12px "arial"
+}
