@@ -30,7 +30,7 @@ li > a {
   align-items: center;
   flex-wrap: nowrap;
 }
-.flex--column{
+.flex--column {
   flex-direction: column;
 }
 li {
@@ -54,7 +54,7 @@ li {
 }
 li > a {
   font: 0.7rem "montserratregular";
-  font-weight: 600; 
+  font-weight: 600;
 }
 .icon-title {
   font:
@@ -104,49 +104,49 @@ table {
 }
 .top {
   height: 4em;
-  width: 100%; 
+  width: 100%;
 }
 .top__black {
   width: 55%;
   height: 100%;
 }
-.top__yellow{
+.top__yellow {
   width: 45%;
   height: 100%;
 }
 .logo {
   height: 3.5em;
   margin-top: 20px;
-  margin-bottom:15px;
+  margin-bottom: 15px;
 }
-.icon_wrap{
-  min-width:9.3%;
+.icon_wrap {
+  min-width: 9.3%;
   height: 100%;
   justify-content: center;
-  text-align:center;
-  padding-top:8px ;
+  text-align: center;
+  padding-top: 8px;
 }
 .icon {
   height: 20px;
 }
 .icon-title {
-font-size: 0.7em;
+  font-size: 0.7em;
 }
-.top__yellow_links  {
-margin-left: 70px;
-gap: 15px;
+.top__yellow_links {
+  margin-left: 70px;
+  gap: 15px;
 }
-.top__yellow_links>li {
- gap: 12px;
- font-size: 0.5em;
- font-weight: 800;
+.top__yellow_links > li {
+  gap: 12px;
+  font-size: 0.5em;
+  font-weight: 800;
 }
-.bottom__search-bar{
+.bottom__search-bar {
   margin-top: 10px;
   width: 38px;
   height: 38px;
   border-radius: 10px;
-  background-color:#ffc107;
+  background-color: #ffc107;
   padding-left: 4px;
   margin-left: 20px;
 }
@@ -161,17 +161,38 @@ gap: 15px;
 }
 .arrow {
   color: #7e7e7e;
-  font-size: 12px ;
+  font-size: 12px;
   margin-right: 5px;
   padding-block: 5px;
 }
 .Select {
-   font: 12px "arial"
+  font: 12px "arial";
 }
-.top__yellow_language-input>img {
-  height: 18px ;
+.top__yellow_language-input > img {
+  height: 18px;
 }
-span>a {
+p > a,
+span > a {
   text-decoration: none;
   color: inherit;
+}
+.dropdown {
+  background-color:#363636; ; 
+  min-width: 215px;
+  position: relative;
+  top: -5px;
+  font-size: 12px;
+  color: white;
+  border: 1px solid rgb(255, 255, 255);
+  align-items: flex-start;
+}
+.dropdown>li {
+  border-bottom: 1px solid rgba(110, 109, 109, 0.5);
+  width: 100%;
+  padding-left: 10px;
+  padding-block: 5px; 
+}
+.aboutus-dropdown {
+  right: 568px;
+
 }
