@@ -177,7 +177,7 @@ span > a {
   color: inherit;
 }
 .dropdown {
-  background-color:#363636; ; 
+  background-color: #363636;
   min-width: 215px;
   position: relative;
   top: -5px;
@@ -186,13 +186,12 @@ span > a {
   border: 1px solid rgb(255, 255, 255);
   align-items: flex-start;
 }
-.dropdown>li {
+.dropdown > li {
   border-bottom: 1px solid rgba(110, 109, 109, 0.5);
   width: 100%;
   padding-left: 10px;
-  padding-block: 5px; 
+  padding-block: 5px;
 }
 .aboutus-dropdown {
   right: 568px;
-
 }
