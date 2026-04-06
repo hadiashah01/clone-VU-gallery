@@ -120,14 +120,14 @@ table {
   margin-bottom: 15px;
 }
 .icon_wrap {
-  min-width: 9.3%;
+  min-width: 9.5%;
   height: 66px;
   justify-content: center;
   text-align: center;
-  padding-top: 8px;
 }
 .icon_wrap:hover.icon_wrap {
   border: 1px solid rgb(255, 255, 255);
+  background-color: rgba(110, 109, 109, 0.5);
 }
 .icon {
   height: 20px;
@@ -145,13 +145,18 @@ table {
   font-weight: 800;
 }
 .bottom__search-bar {
-  margin-top: 10px;
-  width: 38px;
-  height: 38px;
-  border-radius: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 7px;
   background-color: #ffc107;
-  padding-left: 4px;
-  margin-left: 20px;
+  padding-left: 6px;
+  margin-left: 5px;
+}
+.icon_wrap:last-child{
+ min-width:5%;
+}
+.icon_wrap:hover .bottom__search-bar{
+  background-color:#1b2a39
 }
 .top__yellow_language-input {
   background-color: aliceblue;
