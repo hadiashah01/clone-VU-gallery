@@ -152,11 +152,11 @@ table {
   padding-left: 6px;
   margin-left: 5px;
 }
-.icon_wrap:last-child{
- min-width:5%;
+.icon_wrap:last-child {
+  min-width: 5%;
 }
-.icon_wrap:hover .bottom__search-bar{
-  background-color:#1b2a39
+.icon_wrap:hover .bottom__search-bar {
+  background-color: #1b2a39;
 }
 .top__yellow_language-input {
   background-color: aliceblue;
