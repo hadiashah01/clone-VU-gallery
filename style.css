@@ -13,13 +13,18 @@ body {
 }
 .yellow-bg {
   background-color: #ffc107;
+  clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%);
 }
+
 .black-bg {
   background-color: black;
 }
 .grey-bg > ul,
 .top__black-vu-text {
   color: white;
+}
+.top {
+  background-color: #000;
 }
 li > a {
   color: #000;
@@ -38,7 +43,7 @@ li {
 }
 .top__black-green-text {
   color: #3bbd3b;
-  font-size: 18px;
+  font-size: 1.1rem;
   margin-inline: 12px;
   min-width: 350px;
   font-weight: 700;
@@ -136,13 +141,14 @@ table {
   font-size: 0.7em;
 }
 .top__yellow_links {
-  margin-left: 70px;
+  margin-left: 150px;
   gap: 15px;
+  font-size: 2rem;
 }
 .top__yellow_links > li {
-  gap: 12px;
+  gap: 18px;
   font-size: 0.5em;
-  font-weight: 800;
+  font-weight: 900;
 }
 .bottom__search-bar {
   width: 30px;
@@ -203,7 +209,23 @@ span > a {
   padding-left: 10px;
   padding-block: 5px;
   text-align: left;
+  .dropdown > li:hover {
+    color: #ffc107;
+    cursor: pointer;
+  }
 }
 .icon_wrap:hover .aboutus-dropdown {
   left: 1px;
+}
+
+.dropdown > li:hover {
+  color: #ffc107;
+}
+select {
+  position: absolute;
+  top: 15px;
+  right: 30px;
+  padding-inline: 1rem;
+  padding-block: 0.3rem;
+  opacity: 0;
 }
