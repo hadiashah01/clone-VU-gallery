@@ -35,110 +35,170 @@
               <a href="https://www.vu.edu.pk/services.aspx">Contact Us</a>
             </li>
           </ul>
-          <div class="top__yellow_google-input"><img src="" alt="" /></div>
+          <div class="top__yellow_language-input flex">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg"
+              alt=""
+            />
+            <span class="Select"><a href="#">Select Language</a> </span
+            ><span class="arrow"><a href="#">| ▼ </a></span>
+          </div>
+          <select name="language" id="language">
+            <option value="select">Select Language</option>
+            <option value="eng">English</option>
+            <option value="urdu">Urdu</option>
+          </select>
         </div>
       </div>
       <div class="bottom grey-bg">
         <ul class="flex">
-          <div class="icon_wrap flex flex--column">
-            <li>
-              <img src="./images/aboutus-icon.png" alt="" class="icon" />
-              <p class="icon-title">About Us</p>
-            </li>
-          </div>
-          <div class="icon_wrap flex flex--column">
-            <li>
-              <img src="./images/admission-icon.png" alt="" class="icon" />
-              <p class="icon-title">Admissions</p>
-            </li>
-          </div>
-          <div class="icon_wrap flex flex--column">
-            <li>
-              <img src="./images/academics-icon.png" alt="" class="icon" />
-              <p class="icon-title">Academics</p>
-            </li>
-          </div>
-          <div class="icon_wrap flex flex--column">
-            <li>
-              <img src="./images/students-icon.png" alt="" class="icon" />
-              <p class="icon-title">Students</p>
-            </li>
-          </div>
-          <div class="icon_wrap flex flex--column">
-            <li>
-              <img src="./images/campus-icon.png" alt="" class="icon" />
-              <p class="icon-title">Campuses</p>
-            </li>
-          </div>
-          <div class="icon_wrap flex flex--column">
-            <li>
-              <img
-                src="./images/research-and-dev-icon.png"
-                alt=""
-                class="icon"
-              />
-              <p class="icon-title">Research & Development</p>
-            </li>
-          </div>
-          <div class="icon_wrap flex flex--column">
-            <li>
-              <img src="./images/services-icon.png" alt="" class="icon" />
-              <p class="icon-title">Services</p>
-            </li>
-          </div>
-          <div class="icon_wrap flex flex--column">
-            <li>
-              <img src="./images/job-and-tendor-icon.png" alt="" class="icon" />
-              <p class="icon-title">Jobs & Tenders</p>
-            </li>
-          </div>
-          <div class="icon_wrap flex flex--column">
-            <li>
-              <img src="./images/vutv-icon.png" alt="" class="icon" />
-              <p class="icon-title">VUTV</p>
-            </li>
-          </div>
-          <div class="icon_wrap flex flex--column">
-            <li>
-              <img src="./images/importantlink-icon.png" alt="" class="icon" />
-              <p class="icon-title">Important Links</p>
-            </li>
-          </div>
-       
-        <li class="bottom__search-bar flex">
-            <svg
-              width="25"
-              height="100"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M7 11.5C7 8.46243 9.46243 6 12.5 6C15.5376 6 18 8.46243 18 11.5C18 14.5376 15.5376 17 12.5 17C10.5 17 8.8 15.9 7.8 14.3"
-                stroke="white"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
+          <li class="icon_wrap flex flex--column">
+            <img src="./images/aboutus-icon.png" alt="" class="icon" />
+            <p class="icon-title">About Us</p>
+            <ul class="dropdown aboutus-dropdown flex flex--column">
+              <li>About VU ></li>
+              <li>VU at a Glance ></li>
+              <li>University Administration ></li>
+              <li>Offices & Staff ></li>
+            </ul>
+          </li>
+          <li class="icon_wrap flex flex--column">
+            <img src="./images/admission-icon.png" alt="" class="icon" />
+            <p class="icon-title">Admissions</p>
+            <ul class="dropdown admissions-dropdown flex flex--column">
+              <li>Undergraduate ></li>
+              <li>Graduate ></li>
+              <li>Diplomas / Short Course ></li>
+              <li>Prospectus</li>
+              <li>Admission Schedule</li>
+              <li>Fee Structure</li>
+              <li>Procedure & Guidelines ></li>
+              <li>Scheme of Study</li>
+              <li>Apply Now</li>
+              <li>Admitted Candidates List</li>
+            </ul>
+          </li>
+          <li class="icon_wrap flex flex--column">
+            <img src="./images/academics-icon.png" alt="" class="icon" />
+            <p class="icon-title">Academics</p>
+            <ul class="dropdown academics-dropdown flex flex--column">
+              <li>Faculty of Arts ></li>
+              <li>Faculty of CS & IT ></li>
+              <li>Faculty of Education ></li>
+              <li>Faculty of Management ></li>
+              <li>Faculty of Science and Technology ></li>
+            </ul>
+          </li>
+          <li class="icon_wrap flex flex--column">
+            <img src="./images/students-icon.png" alt="" class="icon" />
+            <p class="icon-title">Students</p>
+            <ul class="dropdown students-dropdown flex flex--column">
+              <li>Services ></li>
+              <li>Information ></li>
+              <li>Scholarships ></li>
+              <li>Academic Calender</li>
+            </ul>
+          </li>
+          <li class="icon_wrap flex flex--column">
+            <img src="./images/campus-icon.png" alt="" class="icon" />
+            <p class="icon-title">Campuses</p>
+            <ul class="dropdown campuses-dropdown flex flex--column">
+              <li>Virtual Campuses ></li>
+              <li>Become A VU Campus ></li>
+              <li>Campus Portal ></li>
+            </ul>
+          </li>
+          <li class="icon_wrap flex flex--column">
+            <img src="./images/research-and-dev-icon.png" alt="" class="icon" />
+            <p class="icon-title">Research & Development</p>
+            <ul class="dropdown research-dropdown flex flex--column">
+              <li>DigiSkills.pk</li>
+              <li>Professional Development Center</li>
+              <li>
+                Office of Research, Innovation <br />
+                and Commercialization
+              </li>
+            </ul>
+          </li>
+          <li class="icon_wrap flex flex--column">
+            <img src="./images/services-icon.png" alt="" class="icon" />
+            <p class="icon-title">Services</p>
+            <ul class="dropdown services-dropdown flex flex--column">
+              <li>Software Solutions</li>
+            </ul>
+          </li>
+          <li class="icon_wrap flex flex--column">
+            <img src="./images/job-and-tendor-icon.png" alt="" class="icon" />
+            <p class="icon-title">Jobs & Tenders</p>
+            <ul class="dropdown jobs-dropdown flex flex--column">
+              <li>Job Advertisements</li>
+              <li>Exam Superintendent Registration</li>
+              <li>Course Development</li>
+              <li>Tenders</li>
+            </ul>
+          </li>
+          <li class="icon_wrap flex flex--column">
+            <img src="./images/vutv-icon.png" alt="" class="icon" />
+            <p class="icon-title">
+              <a href="https://www.vu.edu.pk/vutv">VUTV</a>
+            </p>
+          </li>
+          <li class="icon_wrap flex flex--column">
+            <img src="./images/importantlink-icon.png" alt="" class="icon" />
+            <p class="icon-title">Important Links</p>
 
-              <path
-                d="M10 11.5H7V8.5"
-                stroke="white"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
+            <ul class="dropdown links-dropdown flex flex--column">
+              <li>Protection against Harrassment</li>
+              <li>Citizen Portal/VU Complaint Handling</li>
+              <li>Right of Access to Information</li>
+              <li>VU Societies/Clubs</li>
+              <li>ORIC</li>
+              <li>Degree/Transcript Verification</li>
+              <li>DigiSkills</li>
+              <li>VSpace@VU</li>
+              <li>QEC</li>
+              <li>Photo Gallery</li>
+              <li>Student Start-Up Business Center</li>
+              <li>Alumni</li>
+              <li>More Links</li>
+            </ul>
+          </li>
+          <li class="icon_wrap flex flex--column">
+            <div class="bottom__search-bar flex">
+              <svg
+                width="15"
+                height="100"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 11.5C7 8.46243 9.46243 6 12.5 6C15.5376 6 18 8.46243 18 11.5C18 14.5376 15.5376 17 12.5 17C10.5 17 8.8 15.9 7.8 14.3"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
 
-              <path
-                d="M16.5 15.5L21.5 20.5"
-                stroke="white"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-        </li>
-         </ul>
+                <path
+                  d="M10 11.5H7V8.5"
+                  stroke="white"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+
+                <path
+                  d="M16.5 15.5L21.5 20.5"
+                  stroke="white"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+          </li>
+        </ul>
       </div>
     </header>
     <main>
